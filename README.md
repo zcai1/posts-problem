@@ -1,6 +1,9 @@
 A simple program to run post's tag system on (100)^n and check how many steps
 it takes before the system halts.
 
+## Dependency Requirements
+You need to install boost 1.74 before compiling.
+
 ## How to compile
 Note: This program uses some Intel AVX2 intrinsics by default. If your computer
 does not have a Intel CPU which supports AVX2, simply remove all the
